@@ -27,7 +27,8 @@ C:\investigationdrone_case\drone_investigation_20241213\
     08_secured_sources\      - Protected source information
 ```
 
-## Active FOIA Requests
+## Active Public Records Requests
+
 1. FAA Request (Submitted Dec 27, 2024)
    - Focus: Flight restrictions and air traffic records
    - Timeline: November 1, 2024 to present
@@ -37,6 +38,18 @@ C:\investigationdrone_case\drone_investigation_20241213\
    - Focus: Intelligence assessments and threat analyses
    - Timeline: November 1, 2024 to present
    - Status: Pending
+
+3. FBI Request (Submitted Dec 29, 2024)
+   - Focus: 
+     * Drone sighting investigations near military facilities
+     * Inter-agency coordination records
+     * Public safety assessments
+   - Timeline: November 1, 2024 to present
+   - Status: Pending
+   - Note: Expedited processing requested
+
+Planned Submissions:
+- NJSP Request (In preparation)
 
 ## Immediate Priorities
 1. Complete remaining FOIA submissions (FBI, NJSP)
