@@ -126,3 +126,10 @@ footer {
     color: white;
     margin-top: 3rem;
 }
+ .sponsor {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
