@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northeast Drone Sightings Investigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Northeast Drone Sightings Investigation</h1>
+        <p>Last Updated: January 10, 2025</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Project Mission</h2>
+            <p>Documentation and analysis of drone sightings near sensitive installations in the Northeast United States through official channels and public records requests.</p>
+        </section>
+
+        <section class="status">
+            <h2>Current Status</h2>
+            <div class="status-grid">
+                <div class="status-item">
+                    <h3>Active FOIA Requests</h3>
+                    <ul>
+                        <li>FBI - Fee Waiver Pending</li>
+                        <li>DHS I&A - Submitted</li>
+                        <li>FAA - Submitted</li>
+                    </ul>
+                </div>
+                <div class="status-item">
+                    <h3>Confirmed Reports</h3>
+                    <ul>
+                        <li>Picatinny Arsenal: 11 sightings</li>
+                        <li>Naval Weapons Station Earle: 2 sightings</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="documents">
+            <h2>Public Documentation</h2>
+            <div class="doc-grid">
+                <div class="doc-item">
+                    <h3>Official Records</h3>
+                    <p>FOIA/OPRA documentation and responses</p>
+                </div>
+                <div class="doc-item">
+                    <h3>Analysis</h3>
+                    <p>Pattern analysis and research findings</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resources">
+            <h2>Project Resources</h2>
+            <ul>
+                <li><a href="docs/">Documentation</a></li>
+                <li><a href="public_records/">Public Records</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: drone.invest2024@gmail.com</p>
+    </footer>
+</body>
+</html>index
