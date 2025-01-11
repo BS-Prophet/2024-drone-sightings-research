@@ -1,34 +1,26 @@
-name: Auto Update Dates
+name: Update Timestamps
 
 on:
   push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+    paths:
+      - 'index.html'  # Only trigger when index.html changes
 
 jobs:
-  update-dates:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          
-      - name: Update Dates
+      - name: Get date from index.html and update README
         run: |
-          # Update index.html
-          sed -i "s/Documentation Updated: .*/Documentation Updated: $(date +'%B %d, %Y')/" index.html
-          # Update README.md
-          sed -i "s/Documentation Last Updated: .*/Documentation Last Updated: $(date +'%B %d, %Y')/" README.md
+          # Extract date from index.html and update README.md
+          DATE=$(grep -o "Last Updated: .*" index.html | cut -d ":" -f2 | xargs)
+          sed -i "s/Last Updated:.*$/Last Updated:$DATE/" README.md
           
-      - name: Commit and Push Changes
+      - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add -A
-          git commit -m "Auto-update dates" || exit 0
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update README timestamp to match index.html"
           git push
