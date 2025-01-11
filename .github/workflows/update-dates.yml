@@ -5,16 +5,6 @@ on:
     paths:
       - 'index.html'
 
-permissions:  # Add this section
-  contents: write
-  actions: write
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      [rest of the file stays the same]
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -23,10 +13,11 @@ jobs:
       
       - name: Get date from index.html and update README
         run: |
-          # Extract date using grep and update README.md
-          INDEX_DATE=$(grep -A1 "Last Updated:" index.html | tail -n1 | tr -d '<>p/' | xargs)
+          # Extract date from index.html (looking for the exact format)
+          INDEX_DATE=$(grep "Last Updated:" index.html | sed 's/.*Last Updated: \(.*\)<\/p>/\1/')
           if [ ! -z "$INDEX_DATE" ]; then
-            sed -i "s/Last Updated:.*$/Last Updated: $INDEX_DATE/" README.md
+            # Update README.md with exact format match
+            sed -i "s/Last Updated: .*$/Last Updated: $INDEX_DATE/" README.md
           else
             echo "Date not found in index.html"
             exit 1
