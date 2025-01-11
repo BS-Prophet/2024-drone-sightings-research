@@ -3,7 +3,7 @@ name: Update Timestamps
 on:
   push:
     paths:
-      - 'index.html'  # Only trigger when index.html changes
+      - 'index.html'
 
 jobs:
   update-readme:
@@ -13,9 +13,14 @@ jobs:
       
       - name: Get date from index.html and update README
         run: |
-          # Extract date from index.html and update README.md
-          DATE=$(grep -o "Last Updated: .*" index.html | cut -d ":" -f2 | xargs)
-          sed -i "s/Last Updated:.*$/Last Updated:$DATE/" README.md
+          # Extract date using grep and update README.md
+          INDEX_DATE=$(grep -A1 "Last Updated:" index.html | tail -n1 | tr -d '<>p/' | xargs)
+          if [ ! -z "$INDEX_DATE" ]; then
+            sed -i "s/Last Updated:.*$/Last Updated: $INDEX_DATE/" README.md
+          else
+            echo "Date not found in index.html"
+            exit 1
+          fi
           
       - name: Commit changes
         run: |
