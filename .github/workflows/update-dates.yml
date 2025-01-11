@@ -5,11 +5,17 @@ on:
     paths:
       - 'index.html'
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Get date from index.html and update README
         run: |
@@ -27,6 +33,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Update README timestamp to match index.html"
           git push
