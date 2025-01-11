@@ -5,6 +5,16 @@ on:
     paths:
       - 'index.html'
 
+permissions:  # Add this section
+  contents: write
+  actions: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      [rest of the file stays the same]
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
