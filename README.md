@@ -1,4 +1,7 @@
-Northeast Drone Sightings Investigation
+Project Titile> <b>Northeast Drone Sightings Investigation</b>
+
+Project Website at: https://bs-prophet.github.io/2024-drone-sightings-research/
+
 Last Updated: December 29, 2024
 
 Project Mission
@@ -38,6 +41,10 @@ Copy code
     ├── expert_analysis/       # Professional assessments and insights.  
     ├── pattern_analysis/      # Geographic and temporal trends.  
     └── working_files/         # Current draft documents.  
+   
+    Project Website
+The project documentation is available at: https://bs-prophet.github.io/2024-drone-sightings-research/
+
 Next Steps
 Finalize FOIA request to NJSP and track responses.
 Update Wiki Page with verified incidents and patterns.
