@@ -2,7 +2,7 @@ Project Titile> <b>Northeast Drone Sightings Investigation</b>
 
 Project Website at: https://bs-prophet.github.io/2024-drone-sightings-research/
 
-Last Updated: December 29, 2024
+Last Updated: January 11, 2025
 
 Project Mission
 To document and analyze drone sightings near sensitive installations in the Northeastern United States, focusing on verified incidents from late 2024. This project leverages FOIA/OPRA requests and public reporting to ensure transparency and support public safety initiatives.
