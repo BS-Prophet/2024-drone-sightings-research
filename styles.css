@@ -17,36 +17,44 @@ body {
 
 .main-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    /* new styles */
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
-
 
 .main-nav {
     position: sticky;
     top: 0;
-    /* updated styles */
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
 }
 
-
-.main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.cta-container {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
-.main-nav a {
-    color: white;
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    color: var(--primary-color);
     text-decoration: none;
-    padding: 0.5rem 1rem;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid white;
 }
 
-.main-nav a:hover {
-    background-color: rgba(255,255,255,0.2);
+.cta-button:hover {
+    background-color: transparent;
+    color: white;
 }
 
 main {
@@ -133,11 +141,5 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
-.cta-container {
-    /* New container styles */
-}
 
-.cta-button {
-    /* New button styles */
-}
 
