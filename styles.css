@@ -1,4 +1,6 @@
-/* Root variables for consistent styling */
+/**************************** 
+1. ROOT VARIABLES 
+****************************/
 :root {
     --primary-color: #2b4c7e;
     --secondary-color: #567ebb;
@@ -7,7 +9,9 @@
     --border-color: #ddd;
 }
 
-/* Base styles */
+/**************************** 
+2. BASE STYLES 
+****************************/
 body {
     margin: 0;
     font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
@@ -16,14 +20,18 @@ body {
     color: var(--text-color);
 }
 
-/* Container for consistent width */
+/**************************** 
+3. CONTAINER LAYOUT 
+****************************/
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
-/* Header styles */
+/**************************** 
+4. HEADER STYLES 
+****************************/
 .main-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
@@ -41,7 +49,9 @@ body {
     opacity: 0.9;
 }
 
-/* Navigation styles */
+/**************************** 
+5. NAVIGATION STYLES 
+****************************/
 .main-nav {
     background-color: var(--primary-color);
     padding: 1rem 0;
@@ -69,7 +79,9 @@ body {
     background-color: rgba(255,255,255,0.2);
 }
 
-/* Main content styles */
+/**************************** 
+6. MAIN CONTENT STYLES 
+****************************/
 main {
     padding: 2rem 0;
 }
@@ -87,7 +99,9 @@ section h2 {
     margin-top: 0;
 }
 
-/* Statistics grid */
+/**************************** 
+7. STATISTICS GRID 
+****************************/
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -112,7 +126,9 @@ section h2 {
     margin: 0;
 }
 
-/* Footer styles */
+/**************************** 
+8. FOOTER STYLES 
+****************************/
 .main-footer {
     background: var(--primary-color);
     color: white;
@@ -125,7 +141,9 @@ section h2 {
     text-align: center;
 }
 
-/* Responsive design */
+/**************************** 
+9. RESPONSIVE DESIGN 
+****************************/
 @media (max-width: 768px) {
     .main-nav ul {
         flex-direction: column;
