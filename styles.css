@@ -15,42 +15,43 @@ body {
     color: var(--text-color);
 }
 
+/* Add a container for consistent width */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
 .main-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 3rem 0;  /* Changed padding */
+    width: 100%;
+    padding: 3rem 0;
     text-align: center;
-    margin: 0;        /* Reset margin */
-    width: 100%;      /* Ensure full width */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.main-header .container {
+    /* This will keep the header content aligned with the page content */
+    text-align: center;
 }
 
 .main-nav {
-    position: sticky;
-    top: 0;
     background-color: var(--primary-color);
+    width: 100%;
     padding: 1rem 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 100;
 }
 
-.main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.main-nav .container {
+    /* This keeps the navigation items aligned with the page content */
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
 }
 
-.main-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
 }
-
 .main-nav a:hover {
     background-color: rgba(255,255,255,0.2);
 }
@@ -83,7 +84,6 @@ main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 2rem;
-    box-sizing: border-box;  /* Add this */
 }
 
 section {
