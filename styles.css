@@ -27,16 +27,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    box-sizing: border-box;
 }
 
 /**************************** 
 4. HEADER STYLES 
 ****************************/
-.main-header {
+.main-header, .main-nav, .main-footer {
+    width: 100%;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 3rem 0;
-    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
 }
 
 .main-header h1 {
