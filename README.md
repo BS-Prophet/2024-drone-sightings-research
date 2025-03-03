@@ -1,62 +1,70 @@
-Project Titile> <b>Northeast Drone Sightings Investigation</b>
+# Northeast Drone Sightings Investigation
 
-Project Website at: https://bs-prophet.github.io/2024-drone-sightings-research/
+Project Website: https://bs-prophet.github.io/2024-drone-sightings-research/
 
-Last Updated: January 11, 2025
+Last Updated: March 3, 2025
 
-Project Mission
+## Project Mission
 To document and analyze drone sightings near sensitive installations in the Northeastern United States, focusing on verified incidents from late 2024. This project leverages FOIA/OPRA requests and public reporting to ensure transparency and support public safety initiatives.
 
-Key Objectives
-Data Collection: Aggregate verified drone sightings and related documentation.
-Analysis: Identify geographic and temporal patterns.
-Public Engagement: Share findings to encourage collaboration and awareness.
-Current Progress
-Active FOIA Requests
-FAA (Submitted Dec 27, 2024)
+## Project Objectives
+- **Data Collection:** Aggregate verified drone sightings and related documentation.
+- **Analysis:** Identify geographical and temporal patterns.
+- **Reporting:** Provide findings for public consideration and awareness.
 
-Focus: Air traffic records and flight restrictions.
-Status: Pending.
-DHS I&A (Submitted Dec 28, 2024)
+## Key Findings
+- **Active FBI Investigation:** FBI has confirmed possession of records related to drone activity in New Jersey but cannot release them due to active law enforcement proceedings
+- **Confirmed Military Base Incidents:** Documentation of 11 drone sightings at NJ military installations
+- **Multi-Agency Response:** Evidence of coordination between federal and state agencies
 
-Focus: Intelligence assessments and inter-agency reports.
-Status: Pending.
-FBI (Submitted Dec 29, 2024)
+## Current Progress
+- Received partial records from NJDEP regarding drone sightings at Naval Weapons Station Earle
+- Confirmed documentation of drone incidents at military installations through OPRA responses
+- Analyzing patterns and official responses to incidents
+- Established comprehensive document organization system
+- Created tracking system for all FOIA/OPRA requests
 
-Focus: Public safety investigations near military facilities.
-Status: Pending (expedited processing requested).
-Planned Submissions
-NJSP: Focus on state-level incident reports and coordination.
-Project Directory Structure
-bash
-Copy code
-/drone_investigation_2024/  
-    ├── incident_logs/         # Chronological logs of sightings.  
-    ├── evidence/              # Supporting documentation (photos, videos).  
-    ├── witness_data/          # Reports and testimonies from the public.  
-    ├── foia_requests/         # Submissions and responses from agencies.  
-    │    ├── FAA/  
-    │    ├── DHS/  
-    │    └── FBI/  
-    ├── expert_analysis/       # Professional assessments and insights.  
-    ├── pattern_analysis/      # Geographic and temporal trends.  
-    └── working_files/         # Current draft documents.  
-   
-    Project Website
-The project documentation is available at: https://bs-prophet.github.io/2024-drone-sightings-research/
+## Active FOIA/OPRA Requests
 
-Next Steps
-Finalize FOIA request to NJSP and track responses.
-Update Wiki Page with verified incidents and patterns.
-Continue verifying new reports and adding them to the timeline.
-Collaborate with experts to enhance analysis.
-Contact & Collaboration
-Email: drone.invest2024@gmail.com
-Contributions: Please reach out for research collaboration or to share verified reports.
-Need for Assistance
+| Agency | Submitted | Status | Request ID |
+|--------|-----------|--------|------------|
+| FBI | Dec 29, 2024 | DENIED - Active investigation | 56d3f3f/1655843-000 |
+| FAA | Dec 27, 2024 | IN PROGRESS - Extension to Feb 24 | 2025-01396 |
+| NJDEP | Dec 27, 2024 | PARTIAL - Some records received | 367891/367890 |
+| DHS I&A | Dec 28, 2024 | PENDING | Awaiting ID |
+| NJSP | In preparation | DRAFTING | N/A |
+
+## Project Directory Structure
+```
+/2024-drone-sightings-research/
+    ├── public_records/           # Government records obtained through FOIA/OPRA
+    │    ├── FOIA-FBI/            # FBI response documentation
+    │    ├── FOIA-FAA/            # FAA documents (pending)
+    │    ├── FOIA-DoD/            # Department of Defense (pending)
+    │    ├── FOIA-NJDEP/          # New Jersey DEP responses
+    │    └── public_records_njsp/ # NJ State Police (pending)
+    ├── agency_responses/         # Organized communications from agencies
+    ├── correspondence_log.md     # Tracking of all communications
+    ├── FOIA_Tracking_Log.md      # Status of all FOIA/OPRA requests
+    ├── calendar.md               # Follow-up schedule and deadlines
+    ├── status.md                 # Current project status
+    └── docs/                     # Documentation for public website
+```
+
+## Next Steps
+- Follow up on overdue DHS I&A request
+- Finalize and submit NJSP request
+- Complete analysis of NJDEP partial records
+- Consider FBI appeal options (due by April 22, 2025)
+- Continue monitoring for new drone incidents
+
+## Contact & Collaboration
+- Email: drone.invest2024@gmail.com
+- Contributions: Please reach out for research collaboration or to share verified reports.
+
+## Need for Assistance
 This project welcomes AI or expert contributions for:
-
-Preparing FOIA submissions.
-Analyzing agency responses.
-Structuring and maintaining the public documentation.
-Pattern recognition across incidents.
+- Analyzing agency responses
+- Pattern recognition across incidents
+- FOIA appeal strategy development
+- Geographic data visualization
