@@ -1,0 +1,57 @@
+# New Jersey State Police OPRA Request
+**Date of Request**: March 2, 2025
+
+## Requestor Information
+[Your Name]
+[Your Address]
+[Your City, State, Zip]
+[Your Email Address]
+[Your Phone Number]
+
+## Request Details
+
+Pursuant to the New Jersey Open Public Records Act (N.J.S.A. 47:1A-1 et seq.), I respectfully request the following records:
+
+1. All incident reports, investigation records, and documentation regarding unidentified drone sightings in New Jersey from November 3, 2024, to the present date.
+
+2. Any internal communications, memos, briefings, or reports concerning drone activity near sensitive installations, military facilities, critical infrastructure, or restricted airspace in New Jersey during the specified time period.
+
+3. Records of interdepartmental or interagency communications with federal agencies (including but not limited to FAA, FBI, and DHS) regarding drone sightings or related investigations.
+
+4. Any threat assessments, security evaluations, or analyses related to unauthorized drone activities in New Jersey during the specified time period.
+
+5. Records of public complaints or reports regarding drones operating in unusual patterns, at unusual times, or in unusual locations.
+
+6. Policies, procedures, or protocols developed or implemented in response to increased drone activity or specific drone-related incidents.
+
+## Format of Records
+
+Please provide these records in electronic format if available. PDF format is preferred for documents, and original file formats (e.g., Excel, CSV) for any data compilations.
+
+## Fee Waiver Request
+
+I request a waiver of all fees associated with this request as this information is being gathered for public education purposes as part of a documented research project on drone sightings in the Northeastern United States. This research will be published openly and made available to the public through an established online platform. The documentation of this research can be found at: https://bs-prophet.github.io/2024-drone-sightings-research/
+
+This project serves the public interest by promoting transparency and public awareness regarding a matter of public safety and security. I am not seeking these records for commercial purposes.
+
+## Response
+
+Please provide a response within seven (7) business days as required by N.J.S.A. 47:1A-5(i). If you deny any part of this request, please cite the specific exemption(s) you believe justifies your refusal to release the information.
+
+If you have any questions regarding this request, please contact me at the information provided above.
+
+Thank you for your assistance with this matter.
+
+Sincerely,
+
+[Your Name]
+
+---
+
+**Tracking Information (for internal use)**
+- Request ID: NJSP_OPRA_03MAR2025
+- Timeline covered: November 3, 2024 - present
+- Category: Drone sightings investigation
+- Related requests: FAA (Dec 27, 2024), DHS (Dec 28, 2024), FBI (Dec 29, 2024)
+- Follow-up date: April 1, 2025 (30 days)
+- Status: Ready for submission
